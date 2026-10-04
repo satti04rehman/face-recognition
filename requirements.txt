@@ -1,0 +1,9 @@
+# IMPORTANT: this is opencv-contrib-python, NOT opencv-python.
+# The face recognizer (LBPH) lives in the "contrib" extra modules,
+# so the normal opencv-python package will crash on the train step.
+#
+# The "<5" pin matters: the opencv-contrib-python 5.x wheels no longer
+# bundle the cascade XML files, so cv2.data.haarcascades is empty and the
+# project dies with "No face cascade found". 4.x ships them and works.
+opencv-contrib-python>=4.5,<5
+numpy

@@ -1,0 +1,132 @@
+{
+  "overall": "# Documentation Audit\n\n## consistency: FAIL  (PASS 8 / WARN 0 / UNKNOWN 0 / NA 0 / FAIL 3)\n- [FAIL] tech:opencv-contrib-python — 'opencv-contrib-python' not detected in stack\n- [FAIL] tech:numpy — 'numpy' not detected in stack\n- [FAIL] tech:LBPH — 'LBPH' not detected in stack\n\n## diagram: PASS  (PASS 2 / WARN 0 / UNKNOWN 0 / NA 0 / FAIL 0)\n\n## security: PASS  (PASS 1 / WARN 0 / UNKNOWN 0 / NA 0 / FAIL 0)\n\n## integrity: PASS  (PASS 6 / WARN 0 / UNKNOWN 0 / NA 0 / FAIL 0)\n\n## Overall\nOverall: **REVIEW**\n\n- consistency: FAIL\n- diagram: PASS\n- security: PASS\n- integrity: PASS",
+  "summary": {
+    "consistency": "FAIL",
+    "diagram": "PASS",
+    "security": "PASS",
+    "integrity": "PASS"
+  },
+  "results": [
+    {
+      "check": "consistency",
+      "item": "file:capture_faces.py",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "file:train_model.py",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "file:recognize_faces.py",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "file:config.py",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "file:requirements.txt",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "file:README.md",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "tech:opencv-contrib-python",
+      "status": "FAIL",
+      "detail": "'opencv-contrib-python' not detected in stack"
+    },
+    {
+      "check": "consistency",
+      "item": "tech:numpy",
+      "status": "FAIL",
+      "detail": "'numpy' not detected in stack"
+    },
+    {
+      "check": "consistency",
+      "item": "tech:LBPH",
+      "status": "FAIL",
+      "detail": "'LBPH' not detected in stack"
+    },
+    {
+      "check": "consistency",
+      "item": "file:dataset",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "consistency",
+      "item": "file:attendance",
+      "status": "PASS",
+      "detail": "file exists"
+    },
+    {
+      "check": "diagram",
+      "item": "/tmp/opencode/gdocs/diagrams/pipeline.mmd",
+      "status": "PASS",
+      "detail": "source exists"
+    },
+    {
+      "check": "diagram",
+      "item": "/tmp/opencode/gdocs/diagrams/filemap.mmd",
+      "status": "PASS",
+      "detail": "source exists"
+    },
+    {
+      "check": "security",
+      "item": "secret-scan",
+      "status": "PASS",
+      "detail": "no secret values found in outputs"
+    },
+    {
+      "check": "integrity",
+      "item": "/home/abdulrehman/Face-Recognition-Beginners-Guide.docx",
+      "status": "PASS",
+      "detail": "228,867 bytes"
+    },
+    {
+      "check": "integrity",
+      "item": "/home/abdulrehman/Face-Recognition-Beginners-Guide.pdf",
+      "status": "PASS",
+      "detail": "481,575 bytes"
+    },
+    {
+      "check": "integrity",
+      "item": "/tmp/opencode/gdocs/diagrams/pipeline.png",
+      "status": "PASS",
+      "detail": "126,129 bytes"
+    },
+    {
+      "check": "integrity",
+      "item": "/tmp/opencode/gdocs/diagrams/filemap.png",
+      "status": "PASS",
+      "detail": "63,802 bytes"
+    },
+    {
+      "check": "integrity",
+      "item": "/tmp/opencode/gdocs/diagrams/pipeline.svg",
+      "status": "PASS",
+      "detail": "20,770 bytes"
+    },
+    {
+      "check": "integrity",
+      "item": "/tmp/opencode/gdocs/diagrams/filemap.svg",
+      "status": "PASS",
+      "detail": "24,601 bytes"
+    }
+  ],
+  "generated_at": "now"
+}
